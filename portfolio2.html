@@ -57,7 +57,7 @@ https://templatemo.com/tm-567-nomad-force
             <section class="hero" id="hero">
                 <div class="heroText">
                     <h1 class="news-detail-title text-white mt-lg-5 mb-lg-4" data-aos="zoom-in" data-aos-delay="300">
-                        Coffee Sales Dashboard
+                        Balaji Fast Food Dashboard
                     </h1>
 
                     <div class="d-flex justify-content-center align-items-center">
@@ -119,17 +119,17 @@ https://templatemo.com/tm-567-nomad-force
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-10 mx-auto">
-                            <h4 class="mb-3" data-aos="fade-up">Coffee Sales Dashboard</h4>
+                            <h4 class="mb-3" data-aos="fade-up">Balaji Fast Food Dashboard</h4>
 
                             <div data-aos="fade-up">
                                 <!-- <i class="bi-notes me-1 mb-2 mb-lg-0"></i> -->                                
                                 <strong>Overview</strong><br>
-                                This dashboard was created to help the marketing team analyze the sales performance
+                                This dashboard was created to analyze the sales performance of fast food items,
                                 <br>
-                                of various coffee types and customer preferences in payment methods, using interactive visuals with Power BI.
+                                transaction patterns, and payment preferences using interactive visuals in Power BI.
                                 <br><br>
                                 <strong>Data Source : </strong><br>
-                                <a href="https://www.kaggle.com/datasets/ihelon/coffee-sales" class="text-warning custom-link"><strong>Kaggle</strong></a>
+                                <a href="https://www.kaggle.com/datasets/ahmedhalimo/balaji-fast-food-sales" class="text-warning custom-link"><strong>Kaggle</strong></a>
 
                             </div>
 
@@ -139,13 +139,7 @@ https://templatemo.com/tm-567-nomad-force
                                 <h6> 1. Read CSV use Pandas</h6>
                                 <br>
                                 <figure class="figure">
-                                    <img src="images/portfolio/1/read.png" class="img-fluid news-image" alt="">
-
-                                    <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
-                                </figure>
-                                <br>
-                                <figure class="figure">
-                                    <img src="images/portfolio/1/hasil read2.png" class="img-fluid news-image" alt="">
+                                    <img src="images/portfolio/2/hasil read2.png" class="img-fluid news-image" alt="">
 
                                     <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
                                 </figure>
@@ -160,72 +154,27 @@ https://templatemo.com/tm-567-nomad-force
                                 <h6> 2. Print data information</h6>
                                 <br>
                                 <figure class="figure">
-                                    <img src="images/portfolio/1/information.png" class="img-fluid news-image" alt="">
+                                    <img src="images/portfolio/2/information.png" class="img-fluid news-image" alt="">
 
                                     <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
                                 </figure>
                                 <br>
-                                <strong>Note: </strong> Result shows that the dataset contains 3,636 rows and 6 columns. The <span class="text-primary">info()</span> method also indicates the number of Non-Null values in each column.
-Most columns have complete Non-Null values, meaning there is no missing data in columns, however there are 89 missing (Null) rows in the card column, as it contains only 3,547 Non-Null values out of 3,636 rows.
+                                <strong>Note: </strong> The result shows that the dataset contains multiple transaction records with 11 columns.
+                                The columns include order details (order_id, date, item_name, item_type, item_price, quantity), transaction information (transaction_amount, transaction_type, received_by, time_of_sale), and calculated revenue. Most columns have complete values, but the transaction_type column contains some missing (Null) entries, as seen in the first row where the payment method is not specified.
                                 <br>
                             </div>
 
                             <div data-aos="fade-up">
                                 <!-- <i class="bi-notes me-1 mb-2 mb-lg-0"></i> -->
                                 <br>
-                                <h6> 3. Cleaning Empty Cells</h6>
-                                <br>
-                                <figure class="figure">
-                                    <img src="images/portfolio/1/cleaning.png" class="img-fluid news-image" alt="">
-
-                                    <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
-                                </figure>
-
-                                <br>
-                                <strong>Note: </strong> There are no changes in our dataset. It means there are no empty cells in our dataset.
-                            </div>
-
-                            <div data-aos="fade-up">
-                                <!-- <i class="bi-notes me-1 mb-2 mb-lg-0"></i> -->
-                                <br>
-                                <h6> 4. Remove Duplicates</h6>
-                                <br>
-                                <figure class="figure">
-                                    <img src="images/portfolio/1/remove duplicates.png" class="img-fluid news-image" alt="">
-
-                                    <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
-                                </figure>
-
-                                <br>
-                                <strong>Note: </strong> It returns False, which means there are no duplicates in our dataset.
-                            </div>
-
-                            <div data-aos="fade-up">
-                                <!-- <i class="bi-notes me-1 mb-2 mb-lg-0"></i> -->
-                                <br>
-                                <h6> 5. Export Dataset to CSV</h6>
-                                <br>
-                                <figure class="figure">
-                                    <img src="images/portfolio/1/export csv.png" class="img-fluid news-image" alt="">
-
-                                    <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
-                                </figure>
-
-                                <br>
-                                <strong>Note: </strong> To continue data visualization in power bi, we export the processed dataset.
-                            </div>
-
-                            <div data-aos="fade-up">
-                                <!-- <i class="bi-notes me-1 mb-2 mb-lg-0"></i> -->
-                                <br>
-                                <h6> 6. Data Visualization with Power BI</h6>
+                                <h6> 3. Data Visualization with Power BI</h6>
 
                                 <br>
                                 <strong>A. DASHBOARD</strong>
                                 <br>
                                 <figure class="figure">
-                                    <a href="images/portfolio/Portfolio1.png" class="image-popup">
-                                        <img src="images/portfolio/Portfolio1.png" class="img-fluid portfolio-image" alt="">
+                                    <a href="images/portfolio/Portfolio2.png" class="image-popup">
+                                        <img src="images/portfolio/Portfolio2.png" class="img-fluid portfolio-image" alt="">
                                     </a>
                                     <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
                                 </figure>
@@ -233,45 +182,58 @@ Most columns have complete Non-Null values, meaning there is no missing data in 
 
                             <div data-aos="fade-up">
                                 <br>
-                                <strong>B. REVENUE BASED ON TRANSACTION PAYMENT</strong>
+                                <strong>B. COUNT TRANSACTION BY TYPE</strong>
                                 <br>
                                 <figure class="figure">
-                                    <a href="images/portfolio/1/Transaction By Payment" class="image-popup">
-                                        <img src="images/portfolio/1/Transaction By Payment.png" class="img-fluid portfolio-image" alt="">
+                                    <a href="images/portfolio/2/Transaction By Payment.png" class="image-popup">
+                                        <img src="images/portfolio/2/Transaction By Payment.png" class="img-fluid portfolio-image" alt="">
                                     </a>
                                     <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
                                 </figure>
                                 <br>
-                                <strong class="text-warning">Note:</strong> From this chart, we can conclude that the vast majority of transactions were made using card payments, accounting for 97.55% (3.55K transactions).
-In contrast, only 2.45% (0.09K transactions) were completed using cash, indicating a strong customer preference for cashless payment methods.
+                                <strong class="text-warning">Note:</strong> Based on the Count Transaction By Type visualization, cash transactions remain the most common payment method, accounting for 47.6% (476 transactions). Online payments follow closely with 41.7% (417 transactions), while other payment methods make up the smallest share at 10.7% (107 transactions).
                             </div>
 
                             <div data-aos="fade-up">
                                 <br>
-                                <strong>C. REVENUE BASED ON PRODUCT CATEGORY</strong>
+                                <strong>C. REVENUE BY ITEM NAME</strong>
                                 <br>
                                 <figure class="figure">
-                                    <a href="images/portfolio/1/Sales By Coffee.png" class="image-popup">
-                                        <img src="images/portfolio/1/Sales By Coffee.png" class="img-fluid portfolio-image" alt="">
+                                    <a href="images/portfolio/2/Revenue By Item Name.png" class="image-popup">
+                                        <img src="images/portfolio/2/Revenue By Item Name.png" class="img-fluid portfolio-image" alt="">
                                     </a>
                                     <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
                                 </figure>
                                 <br>
-                                <strong class="text-warning">Note:</strong> From this chart, we can conclude that Latte is the best-selling coffee with total sales reaching 2.5 million, followed closely by Americano with 2.3 million. On the other hand, Espresso recorded the lowest sales at only 0.2 million, suggesting that it may be less popular among customers compared to other coffee types.
+                                <strong class="text-warning">Note:</strong> The Revenue By Item Name chart shows that Sandwich is the top-performing product, generating the highest revenue at over 60K. Frankie and Cold Coffee follow closely, both contributing significantly to total sales. Meanwhile, Sugarcane Juice, Panipuri, and Aalopuri generate lower revenue in comparison, indicating a smaller share in the overall product performance.
                             </div>
 
                             <div data-aos="fade-up">
                                 <br>
-                                <strong>D. REVENUE BASED ON TOP CARDS</strong>
+                                <strong>D. COUNT QUANTITY BY NAME</strong>
                                 <br>
                                 <figure class="figure">
-                                    <a href="images/portfolio/1/Top Cards By Sales.png" class="image-popup">
-                                        <img src="images/portfolio/1/Top Cards By Sales.png" class="img-fluid portfolio-image" alt="">
+                                    <a href="images/portfolio/2/Count Quantity By Name.png" class="image-popup">
+                                        <img src="images/portfolio/2/Count Quantity By Name.png" class="img-fluid portfolio-image" alt="">
                                     </a>
                                     <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
                                 </figure>
                                 <br>
-                                <strong class="text-warning">Note:</strong> From this visualization, we can see the top cards that generated the highest sales. The top card has the highest sales volume, reaching close to 200K, indicating that the customer is the biggest contributor to total sales.
+                                <strong class="text-warning">Note:</strong> The Count Quantity By Name chart reveals that Cold Coffee is the most frequently sold product, with the highest quantity ordered, followed closely by Sugarcane Juice and Panipuri. Items like Frankie, Aalopuri, and Vadapav have slightly lower sales quantities but still maintain steady demand.
+                            </div>
+
+                            <div data-aos="fade-up">
+                                <br>
+                                <strong>E. COUNT TRANSACTION BY TIME</strong>
+                                <br>
+                                <figure class="figure">
+                                    <a href="images/portfolio/2/Count Transaction By Time.png" class="image-popup">
+                                        <img src="images/portfolio/2/Count Transaction By Time.png" class="img-fluid portfolio-image" alt="">
+                                    </a>
+                                    <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
+                                </figure>
+                                <br>
+                                <strong class="text-warning">Note:</strong> The Count Transaction By Time chart indicates that transactions are relatively evenly distributed across different times of the day, with Afternoon and Night slightly leading in volume. Evening and Midnight follow closely, while Morning has the lowest, yet still significant, number of transactions.
                             </div>
 
                                 <!-- <br>
@@ -282,11 +244,11 @@ In contrast, only 2.45% (0.09K transactions) were completed using cash, indicati
 
                             <div data-aos="fade-up">
                                 <br>
-                                <strong>E. REVENUE PER PERIODE</strong>
+                                <strong>F. REVENUE BY MONTH</strong>
                                 <br>
                                 <figure class="figure">
-                                    <a href="images/portfolio/1/Monthly Sales 2.png" class="image-popup">
-                                        <img src="images/portfolio/1/Monthly Sales 2.png" class="img-fluid portfolio-image" alt="">
+                                    <a href="images/portfolio/2/Revenue By Month" class="image-popup">
+                                        <img src="images/portfolio/2/Revenue By Month.png" class="img-fluid portfolio-image" alt="">
                                     </a>
                                     <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
                                 </figure>
@@ -294,59 +256,57 @@ In contrast, only 2.45% (0.09K transactions) were completed using cash, indicati
                                 <strong class="text-warning">Note:</strong>
                                 <br>
                                 <ul>
-                                    <li>The highest sales occurred in November, reaching the peak of the year.</li>
-                                    <li>Sales also saw a significant increase in February and October.</li>
-                                    <li>The lowest sales happened in April, suggesting a possible seasonal drop or lower customer demand during that month.</li>
+                                    <li>May 2022, October 2022, and January 2023 show the highest revenue points, each reaching close to or above 28K.</li>
+                                    <li>June 2022 marks the lowest revenue period, dropping below 18K.</li>
+                                    <li>Revenue shows a cyclical pattern with noticeable ups and downs rather than consistent growth.</li>
+                                    <li>From January to March 2023, revenue remains relatively stable but slightly lower than the January peak.</li>
                                 </ul>
                             </div>
 
                             <div data-aos="fade-up">
                                 <br>
-                                <strong>F. TOTAL SALES</strong>
+                                <strong>G. TOTAL REVENUE</strong>
                                 <br>
                                 <figure class="figure">
-                                    <a href="images/portfolio/1/Total Sales.png" class="image-popup">
-                                        <img src="images/portfolio/1/Total Sales.png" class="img-fluid portfolio-image" alt="">
+                                    <a href="images/portfolio/2/Total Revenue.png" class="image-popup">
+                                        <img src="images/portfolio/2/Total Revenue.png" class="img-fluid portfolio-image" alt="">
                                     </a>
                                     <!-- <figcaption class="figure-caption text-end">A caption for the above image.</figcaption> -->
                                 </figure>
                                 <br>
-                                <strong class="text-warning">Note: </strong> From this visualization, we can see that the total sales reached 10 million. This number represents the total revenue generated from all recorded sales transactions during the analyzed time period. This value serves as a key indicator in evaluating the overall business performance.
+                                <strong class="text-warning">Note: </strong> The business achieved a total revenue of 275K, reflecting strong overall sales performance. A total of 8,162 products were sold during the analyzed period, indicating consistent customer demand and a healthy sales volume. These figures highlight both the market reach and the effectiveness of sales strategies in driving revenue and product movement.
                             </div>
 
                             <div data-aos="fade-up">
                                 <!-- <i class="bi-notes me-1 mb-2 mb-lg-0"></i> -->
                                 <br>
-                                <h6> 8. Conclusion</h6>
+                                <h6> 4. Conclusion</h6>
                                 <br>
                                 <strong>Based on our analysis,</strong> there are some conclusions.
                                 <ul>
-                                    <li>Customers predominantly use card payments over cash.</li>
-                                    <li>Latte is the most popular coffee product, while Espresso is the least preferred.</li>
-                                    <li>The highest revenue was recorded in October.</li>
-                                    <li>Certain customers play a significant role in contributing to sales volume.</li>
-                                    <li>A strong total revenue of 10M reflects a healthy business performance.</li>
+                                    <li>Total revenue reached 275K with 8,162 products sold, showing solid sales performance.</li>
+                                    <li>Cash transactions (47.6%) slightly outperformed online transactions (41.7%), with other payment methods making up 10.7%.</li>
+                                    <li>Sandwich generated the highest revenue, while Cold coffee had the highest quantity sold.</li>
+                                    <li>Sales were distributed relatively evenly across times of the day, with slight peaks in Afternoon and Night.</li>
+                                    <li>Monthly revenue trends showed fluctuations, with notable peaks in May 2022, October 2022, and January 2023.</li>
                                 </ul>
                             </div>
 
                             <div data-aos="fade-up">
                                 <!-- <i class="bi-notes me-1 mb-2 mb-lg-0"></i> -->
                                 <br>
-                                <h6> 8. Recommendation</h6>
+                                <h6> 5. Recommendation</h6>
                                 <br>
                                 <strong>Based on our analysis,</strong> there are some conclusions.
                                 <ul>
-                                    <li>
-                                        The company can consider expanding its product categories by introducing new variants or seasonal offerings (e.g., flavored lattes or limited edition drinks) to attract a wider customer base and increase sales potential.
+                                    <li>Promote top-selling products like Sandwich and Cold coffee while exploring ways to boost lower-performing items.
                                     </li>
-                                    <li>
-                                        Offer promotional bundles, targeted marketing, or pairing espresso with popular items to boost interest. Collect feedback to understand why sales are low and adjust offerings if needed.
+                                    <li>Strengthen online sales channels to close the gap with cash transactions.
+                                    <li>Launch time-based promotions during off-peak hours to balance transaction distribution.
                                     </li>
-                                    <li>
-                                        Promote digital payments further by offering loyalty points, cashback, or member discounts for card or QR transactions to maintain and increase this behavior.
+                                    <li>Investigate factors behind revenue peaks to replicate those strategies in other months.
                                     </li>
-                                    <li>
-                                        Launch time-based promotions, such as mid-year coupons, limited-time deals, or spending-based prize draws during these slower periods to maintain consistent revenue across all months.
+                                    <li>Continue monitoring product performance and transaction trends for targeted marketing efforts.
                                     </li>
                                 </ul>
                             </div>
