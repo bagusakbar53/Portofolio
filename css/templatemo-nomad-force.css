@@ -442,6 +442,13 @@ strong {
   margin: 20px;
 }
 
+.portfolio-image {
+  width: 100%;
+  max-width: 450px;
+  height: 250px;
+  object-fit: cover;
+}
+
 /*---------------------------------------
   NEWS & EVENTS               
 -----------------------------------------*/
